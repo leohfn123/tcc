@@ -16,7 +16,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="teste5.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="tela_principal_biblioteca.php">Home</a>
               </li>
               <li class="nav-item">
                
@@ -25,16 +25,16 @@
                   livros
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence.html">Suspence</a></li>
-                  <li><a class="dropdown-item" href="livrosromance.html">Romance</a></li>
-                  <li><a class="dropdown-item" href="livrosficção.html">Ficção</a></li>                 
-                  <li><a class="dropdown-item" href="livrosaventura.html">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos.html">Quadrinhos\Mangas</a></li>
-                  <li><a class="dropdown-item" href="livrosterror.html">Terror</a></li>
-                  <li><a class="dropdown-item" href="livrosacademico.html">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
+                  <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
+                  <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
+                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos\Mangas</a></li>
+                  <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
+                  <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="livrosgeral.html">Ver todos os livros</a></li>
-                  <li><a class="dropdown-item" href="livrosprogramação.html">livros sobre programação  </a></li>
+                  <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
+                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
                 </ul>
               </li>
             </ul>
@@ -52,8 +52,9 @@
         <!-- Content here -->
       </div>
     
-      <h1>todos os livros </h1>
+      <h1>programação </h1>
       <div class="row">
+        //
       <div class="col-sm-6 mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
@@ -64,6 +65,7 @@
           </div>
         </div>
       </div>
+      //
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
@@ -81,7 +83,7 @@
     <div class="col-sm-6 mb-3 mb-sm-0">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">A bomba </h5>
+          <h5 class="card-title">tudo que aconteceu </h5>
           <img src="img/img9.png" >
           <p class="card-text">tudo que aconteceu depois que a programação foi inventada</p>
           <a href="testepessoal3.html" class="btn btn-primary">clique aqui para saber mais </a>
@@ -91,7 +93,7 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">A biologia </h5>
+          <h5 class="card-title">onde começar </h5>
           <img src="img/img7.jpg" >
           <p class="card-text">ele da passos como começar a programar</p>
           <a href="testepessoal2.html" class="btn btn-primary">clique aqui para saber mais </a>
@@ -100,56 +102,8 @@
     </div>
   </div>
   </div>
-   <br>       
-   <div class="row">
-    <div class="col-sm-6 mb-3 mb-sm-0">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">geografia pelo mundo</h5>
-          <img src="img/img1.jpg" >
-          <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
-          <a href="teste.html" class="btn btn-primary">clique aqui para saber mais </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Deuses gregos</h5>
-          <img src="img/img.jpg" >
-          <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
-          <a href="testepessoal.html" class="btn btn-primary">clique aqui para saber mais </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-   <br>
-  <div class="row">
-  <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">A algebra </h5>
-        <img src="img/img4.jpg" >
-        <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
-        <a href="testepessoal3.html" class="btn btn-primary">clique aqui para saber mais </a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">a historia de tudo  </h5>
-        <img src="img/img3.jpg" >
-        <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
-        <a href="testepessoal2.html" class="btn btn-primary">clique aqui para saber mais </a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-        
-
+          
+  
     
     
     

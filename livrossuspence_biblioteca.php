@@ -16,7 +16,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="teste5.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="tela_principal_biblioteca.php">Home</a>
               </li>
               <li class="nav-item">
                
@@ -26,16 +26,16 @@
                 </a>
                 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence.html">Suspence</a></li>
-                  <li><a class="dropdown-item" href="livrosromance.html">Romance</a></li>
-                  <li><a class="dropdown-item" href="livrosficção.html">Ficção</a></li>                 
-                  <li><a class="dropdown-item" href="livrosaventura.html">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos.html">Quadrinhos\Mangas</a></li>
-                  <li><a class="dropdown-item" href="livrosterror.html">Terror</a></li>
-                  <li><a class="dropdown-item" href="livrosacademico.html">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
+                  <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
+                  <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
+                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos\Mangas</a></li>
+                  <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
+                  <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="livrosgeral.html">Ver todos os livros</a></li>
-                  <li><a class="dropdown-item" href="livrosprogramação.html">livros sobre programação  </a></li>
+                  <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
+                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
                 </ul>
               </li>
             </ul>

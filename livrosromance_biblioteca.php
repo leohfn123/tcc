@@ -8,7 +8,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+        <div class="container">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="teste5.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="tela_principal_biblioteca.php">Home</a>
               </li>
               <li class="nav-item">
                
@@ -24,17 +24,18 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   livros
                 </a>
+                
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence.html">Suspence</a></li>
-                  <li><a class="dropdown-item" href="livrosromance.html">Romance</a></li>
-                  <li><a class="dropdown-item" href="livrosficção.html">Ficção</a></li>                 
-                  <li><a class="dropdown-item" href="livrosaventura.html">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos.html">Quadrinhos\Mangas</a></li>
-                  <li><a class="dropdown-item" href="livrosterror.html">Terror</a></li>
-                  <li><a class="dropdown-item" href="livrosacademico.html">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
+                  <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
+                  <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
+                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos\Mangas</a></li>
+                  <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
+                  <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="livrosgeral.html">Ver todos os livros</a></li>
-                  <li><a class="dropdown-item" href="livrosprogramação.html">livros sobre programação  </a></li>
+                  <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
+                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
                 </ul>
               </li>
             </ul>
@@ -52,40 +53,41 @@
         <!-- Content here -->
       </div>
     
-      <h1>programação </h1>
+      <h1>Romance</h1>
       <div class="row">
-        //
       <div class="col-sm-6 mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">a logica</h5>
-            <img src="img/img8.webp" >
-            <p class="card-text">conta como e facil aprender a logica de programação</p>
+            <h5 class="card-title">como eu conheci o AMOR</h5>
+            <img src="img/img22 (1).jpeg" height="250px" >
+            <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
             <a href="teste.html" class="btn btn-primary">clique aqui para saber mais </a>
           </div>
         </div>
       </div>
-      //
+
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title"> pai da programação </h5>
-            <img src="img/img5.webp" >
-            <p class="card-text">como foi criado a programação </p>
+            <h5 class="card-title">a namorada perfeita </h5>
+            <img src="img/img24.jpeg" height="250px" >
+            <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
             <a href="testepessoal.html" class="btn btn-primary">clique aqui para saber mais </a>
           </div>
         </div>
       </div>
     </div>
     </div>
+
      <br>
+
     <div class="row">
-    <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="col-sm-6 ">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">tudo que aconteceu </h5>
-          <img src="img/img9.png" >
-          <p class="card-text">tudo que aconteceu depois que a programação foi inventada</p>
+          <h5 class="card-title">o namorado perfeito</h5>
+          <img src="img/img25.jpeg" height="250px">
+          <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
           <a href="testepessoal3.html" class="btn btn-primary">clique aqui para saber mais </a>
         </div>
       </div>
@@ -93,19 +95,15 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">onde começar </h5>
-          <img src="img/img7.jpg" >
-          <p class="card-text">ele da passos como começar a programar</p>
+          <h5 class="card-title">barraca do beijo</h5>
+          <img src="img/img23.jpeg" height="250px" >
+          <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
           <a href="testepessoal2.html" class="btn btn-primary">clique aqui para saber mais </a>
         </div>
       </div>
     </div>
   </div>
   </div>
-          
-  
-    
-    
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>

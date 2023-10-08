@@ -16,7 +16,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="teste5.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="tela_principal_biblioteca.php">Home</a>
               </li>
               <li class="nav-item">
                
@@ -24,18 +24,16 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   livros
                 </a>
-                
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence.html">Suspence</a></li>
-                  <li><a class="dropdown-item" href="livrosromance.html">Romance</a></li>
-                  <li><a class="dropdown-item" href="livrosficção.html">Ficção</a></li>                 
-                  <li><a class="dropdown-item" href="livrosaventura.html">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos.html">Quadrinhos\Mangas</a></li>
-                  <li><a class="dropdown-item" href="livrosterror.html">Terror</a></li>
-                  <li><a class="dropdown-item" href="livrosacademico.html">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>                        
+                  <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
+                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos\Mangas</a></li>
+                  <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
+                  <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="livrosgeral.html">Ver todos os livros</a></li>
-                  <li><a class="dropdown-item" href="livrosprogramação.html">livros sobre programação  </a></li>
+                  <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
+                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
                 </ul>
               </li>
             </ul>
@@ -50,44 +48,41 @@
         </div>
       </nav>
     <div class="container">
-        <!-- Content here -->
+       
       </div>
     
-      <h1>Encontre alguns livros aqui</h1>
+      <h1>Terror</h1>
       <div class="row">
       <div class="col-sm-6 mb-3 mb-sm-0">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">tal filho</h5>
-            <img src="img/img1.jpg" height="250px" >
-            <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
+            <h5 class="card-title">five nights at Regin's</h5>
+            <img src="img/img25.jpeg" height="250px" >
+            <p class="card-text">um menino quer se tornar hokage</p>
             <a href="teste.html" class="btn btn-primary">clique aqui para saber mais </a>
           </div>
         </div>
       </div>
-
       <div class="col-sm-6">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">tal pai </h5>
-            <img src="img/img.jpg" height="250px" >
-            <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
+            <h5 class="card-title">comedora de mentes</h5>
+            <img src="img/img30.jpeg" height="250px">
+            <p class="card-text"> FDS um pirata que estica </p>
             <a href="testepessoal.html" class="btn btn-primary">clique aqui para saber mais </a>
           </div>
         </div>
       </div>
     </div>
     </div>
-
      <br>
-
     <div class="row">
-    <div class="col-sm-6 ">
+    <div class="col-sm-6 mb-3 mb-sm-0">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">a historia do final </h5>
-          <img src="img/img4.jpg" height="250px">
-          <p class="card-text">conta a historia de uma criança que está em busca de seu pai pelo mundo</p>
+          <h5 class="card-title"></h5>
+          <img src="img/img31.jpeg" height="250px" >
+          <p class="card-text">o homen torto</p>
           <a href="testepessoal3.html" class="btn btn-primary">clique aqui para saber mais </a>
         </div>
       </div>
@@ -95,16 +90,16 @@
     <div class="col-sm-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">a historia do começo </h5>
-          <img src="img/img3.jpg" height="250px" >
-          <p class="card-text">conta a historia de um homen que gosta de se aventurar pelo mundo</p>
+          <h5 class="card-title">o sugador de almas </h5>
+          <img src="img/img22 (1).jpeg" height="250px" >
+          <p class="card-text">ele teve os pais assasinados , depois ele se torna um vigilante para parar o crime de gohtam</p>
           <a href="testepessoal2.html" class="btn btn-primary">clique aqui para saber mais </a>
         </div>
       </div>
     </div>
   </div>
   </div>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   </body>
 </html>
