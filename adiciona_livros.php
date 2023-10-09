@@ -1,14 +1,14 @@
-<<<<<<< HEAD
+
 
         <!DOCTYPE html>
-=======
+
 <!DOCTYPE html>
->>>>>>> 6dbb8b532f0c05058b53d4e0b0b908c2a7eac75f
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
+
     <title>cadastro livro biblioteca</title>
      
 </head>
@@ -66,11 +66,4 @@
       </div> 
    
 </center> 
-=======
-    <title>Document</title>
-</head>
-<body>
-    <h1>agua</h1>
-</body>
-</html>
->>>>>>> 6dbb8b532f0c05058b53d4e0b0b908c2a7eac75f
+

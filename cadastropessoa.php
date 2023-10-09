@@ -44,7 +44,7 @@
   </div>
     
     <input class="btn btn-primary" type="submit" value="Cadastrar">
-    <a href="livroquadrinhos_biblioteca.php" class="btn btn-primary" >click para ir ao site</a>
+    <a href="tela_principal_biblioteca.php" class="btn btn-primary" >click para ir ao site</a>
          </form>
           </body>
          </html>
