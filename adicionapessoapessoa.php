@@ -19,8 +19,9 @@ $senha = $_POST['senha'];
 
 $sql = "INSERT INTO cadastropessoa (nome ,email ,senha )
         VALUES ('$nome','$email', '$senha' )";
+        
 if ($conexao->query($sql) === TRUE) {
-    echo " foi cadastrado com sucesso!";
+  header("Location: livrosgeral_biblioteca.php");
 } else {
     echo "Erro ao cadastrar  " . $conexao->error;
 }

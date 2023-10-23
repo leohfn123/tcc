@@ -31,7 +31,7 @@ $sql = "INSERT INTO livros (nome_livro,autor ,descricao_livro ,img_livro ,tipo_d
         VALUES ('$titulo','$autor', '$descricao', '$nome', '$tema_livro' )";
 
 if ($conexao->query($sql) === TRUE) {
-    echo "Livro foi concluido com  sucesso!";
+    echo "Livro foi cadastrado com  sucesso!";
 } else {
     echo "Erro ao cadastrar o livro: " . $conexao->error;
 }
@@ -39,5 +39,22 @@ $conexao->close();
 
 
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de livro</title>
+</head>
+<body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<br>
+<center>
+<a href="adiciona_livros.php" class="btn btn-primary" >Deseja adicionar outro livro?</a><br>
+<br>
+<a href="tela_principal_biblioteca.php" class="btn btn-primary">Ir a biblioteca</a>
+</center>
 
-<a href="livroquadrinhos_biblioteca.php" class="btn btn-primary" >click para ir ao site</a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

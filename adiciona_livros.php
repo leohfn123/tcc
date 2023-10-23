@@ -10,14 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>cadastro livro biblioteca</title>
+     <style>
      
+     </style>
 </head>
 <body>
 <form action="cadastro.php" method="POST" enctype="multipart/form-data">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <center> 
-
+<br>
     <div class="col-sm-6 mb-3 mb-sm-0">
       <div class="card">
         <div class="card-body">
@@ -45,7 +47,7 @@
                   <option value="Terror">Terror</option>
                     <option value="Material Acadêmico">Material Acadêmico</option>
                  <option value="Quadrinhos\Manga">Quadrinhos\Manga</option>
-                 <option value="livros sobre programação">livros sobre programação</option>
+                 <option value="livros sobre programação">Livros sobre programação</option>
          
             </select>
         </label><br> 
@@ -58,7 +60,7 @@
          </html>
           
 
-            <a href="livroquadrinhos_biblioteca.php" class="btn btn-primary" >click para ir ao site</a>
+           
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
         </div>
