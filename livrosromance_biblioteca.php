@@ -16,11 +16,10 @@
       $username = 'root';
       $password = '';
       $dbname = 'tcc-biblioteca';
-      
-      // Crie uma conexão
+  
       $conn = new mysqli($servername, $username, $password, $dbname);
       
-      // Verifique a conexão
+     
       if ($conn ->connect_error) {
           die("Conexão falhou: " . $conn->connect_error);
       }

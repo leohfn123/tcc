@@ -17,10 +17,10 @@
       $password = '';
       $dbname = 'tcc-biblioteca';
       
-      // Crie uma conexão
+     
       $conn = new mysqli($servername, $username, $password, $dbname);
       
-      // Verifique a conexão
+     
       if ($conn ->connect_error) {
           die("Conexão falhou: " . $conn->connect_error);
       }
@@ -55,7 +55,7 @@
                   livros
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspense</a></li>
                   <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
                   <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
                   <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>

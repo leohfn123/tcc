@@ -11,16 +11,17 @@
   </head>
   <body>
     <?php
-      
+       
+      session_start();
+
       $servername = 'localhost';
       $username = 'root';
       $password = '';
       $dbname = 'tcc-biblioteca';
       
-      // Crie uma conexão
+      
       $conn = new mysqli($servername, $username, $password, $dbname);
       
-      // Verifique a conexão
       if ($conn ->connect_error) {
           die("Conexão falhou: " . $conn->connect_error);
       }
@@ -97,7 +98,7 @@
            
                         <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
-          
+                
              </div>
             </div>
           </div>

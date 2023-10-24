@@ -8,16 +8,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>cadastro livro biblioteca</title>
-     <style>
-     
-     </style>
 </head>
 <body>
 <form action="cadastro.php" method="POST" enctype="multipart/form-data">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="teste.css">
 <center> 
 <br>
     <div class="col-sm-6 mb-3 mb-sm-0">
@@ -40,7 +37,7 @@
                  <br>
                 <label>tema do livro:<select name="tema_do_livro" >
                    <option value = ""> escolha o tema do livro </option> 
-                  <option value="Suspence">Suspence</option>
+                  <option value="Suspence">Suspense</option>
                    <option value="Romance">Romance</option>
                  <option value="Ficção">Ficção</option>
                   <option value="Aventura">Aventura</option>
@@ -54,7 +51,7 @@
             <br>
            <label>Descrição: <textarea name="descricao"></textarea> </label><br>
 
-         <input  class="btn btn-primary" type="submit" value="Cadastrar" >
+         <input  class="btn btn-outline-success" type="submit" value="Cadastrar" >
          </form>
           </body>
          </html>

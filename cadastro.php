@@ -52,7 +52,7 @@ $conexao->close();
 <center>
 <a href="adiciona_livros.php" class="btn btn-primary" >Deseja adicionar outro livro?</a><br>
 <br>
-<a href="tela_principal_biblioteca.php" class="btn btn-primary">Ir a biblioteca</a>
+<a href="livrosgeral_biblioteca.php" class="btn btn-primary">Ir a biblioteca</a>
 </center>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

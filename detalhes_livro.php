@@ -11,7 +11,7 @@
 <div class="container">
     <h1>Detalhes do Livro</h1>
     <?php
-    // Verifique se o ID do livro foi fornecido na URL
+   
     if (isset($_GET['id'])) {
         $bookId = $_GET['id'];
 
@@ -20,15 +20,14 @@
         $password = '';
         $dbname = 'tcc-biblioteca';
 
-        // Crie uma conexão
         $conn = new mysqli($servername, $username, $password, $dbname);
 
-        // Verifique a conexão
+        
         if ($conn->connect_error) {
             die("Conexão falhou: " . $conn->connect_error);
         }
 
-        // Consulta para recuperar informações do livro com base no ID
+       
         $sql = "SELECT * FROM livros WHERE id = $bookId";
         $result = $conn->query($sql);
 
@@ -58,10 +57,10 @@
             echo "Livro não encontrado.";
         }
 
-        // Feche a conexão com o banco de dados
+       
         $conn->close();
     } else {
-        echo "ID do livro não fornecido na URL.";
+        echo "";
     }
     ?>
 </div>

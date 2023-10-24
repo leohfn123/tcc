@@ -8,6 +8,7 @@
     
     <title>Quadrinhos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="teste.css">
   </head>
   <body>
     <?php
@@ -17,26 +18,16 @@
       $password = '';
       $dbname = 'tcc-biblioteca';
       
-      // Crie uma conexão
+    
       $conn = new mysqli($servername, $username, $password, $dbname);
       
-      // Verifique a conexão
+   
       if ($conn ->connect_error) {
           die("Conexão falhou: " . $conn->connect_error);
       }
       $sql = "SELECT * FROM livros WHERE tipo_do_livro = 'QuadrinhosManga'";
       $result = $conn->query($sql);
-     
-      
-      
-     
-    
-      
     ?>
-
-
-      
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -58,7 +49,7 @@
                   Tema de livros
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspense</a></li>
                   <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
                   <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
                   <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
@@ -95,7 +86,9 @@
       <div class="card">
           <div class="card-body">
           <h5 class="card-title" ><?php echo $row['nome_livro']; ?></h5><br>
+          <center>
              <img <?php echo  "src='img/". $row['img_livro']."'"; ?> height="250px" ><br></br>
+              </center>
              <h6 class="card-text">Autor: <?php echo $row['autor']; ?></h6>
            
             

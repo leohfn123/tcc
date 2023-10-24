@@ -31,7 +31,7 @@
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            header("Location: adicionalivro_biblioteca.php");
+            header("Location: tela_adm.php");
            
         } else {
             echo "acesso negado tente novamente";

@@ -37,7 +37,7 @@
 
   </div>
   <div class="col-md-6"method="POST">
-    <label for="inputPassword4" class="form-label">Coloque seu senha</label>
+    <label for="inputPassword4" class="form-label">Coloque sua senha</label>
     <input type="password" class="form-control" id="inputPassword4" name="senha">
   </div>
    <br> 
