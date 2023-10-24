@@ -83,8 +83,9 @@ $conexao->close();
     <input class="btn btn-outline-success" type="submit" value="Cadastrar">
     
           
-         <input href="tela_principal.php" type="submit" class="btn btn-outline-danger" value="Sair" >
+     
 
+     <a href="tela_principal.php" class="btn btn-outline-danger">Sair para tela inicial</a>
 
         
         </div>

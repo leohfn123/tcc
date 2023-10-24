@@ -51,8 +51,10 @@
             <br>
            <label>Descrição: <textarea name="descricao"></textarea> </label><br>
 
-         <input  class="btn btn-outline-success" type="submit" value="Cadastrar" >
-         </form>
+         <input  class="btn btn-outline-success" type="submit" value="Cadastrar" ><br>
+         <a href="tela_principal.php" class="btn btn-outline-danger">Sair para tela inicial</a>
+ 
+        </form>
           </body>
          </html>
           

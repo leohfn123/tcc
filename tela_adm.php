@@ -16,7 +16,7 @@
       <div class="card">
           <div class="card-body">
 
-<h5>Bem-vindo administrador o`que você gostaria de fazer?</h5>
+<h5>Bem-vindo administrador o que você gostaria de fazer?</h5>
 
 <a href="adiciona_livros.php" class="btn btn-primary">Adicionar livro</a>
 </br>

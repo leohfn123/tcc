@@ -41,7 +41,8 @@
     <input class="btn btn-outline-success" type="submit" value="Cadastrar">
     
           
-         <button class="btn btn-outline-danger" href="tela_principal.php">Voltar</button>
+     <a href="tela_principal.php" class="btn btn-outline-danger">Sair para a tela inicial</a>
+
 
 
         
