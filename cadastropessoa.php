@@ -24,18 +24,18 @@
         
 <div class="row g-3">
   <div class="col">
-    <input type="text" class="form-control" placeholder="nome" aria-label="nome" name  = "nome">
+    <input type="text" class="form-control"  placeholder="nome" aria-label="nome" name  = "nome" required>
   </div>
 </div>
 <form class="row g-3" method="POST">  
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label" >Email</label>
-    <input type="email" class="form-control" id="inputEmail4" placeholder="exemplo: usuario@gmail.com" name="email">
+    <input type="email" class="form-control" id="inputEmail4" placeholder="exemplo: usuario@gmail.com" name="email" required>
 
   </div>
   <div class="col-md-6">
     <label for="inputPassword4" class="form-label"  >senha</label>
-    <input type="password" class="form-control" id="inputPassword4" name="senha">
+    <input type="password" class="form-control" id="inputPassword4" name="senha" required>
   </div>
     
     <input class="btn btn-outline-success" type="submit" value="Cadastrar">

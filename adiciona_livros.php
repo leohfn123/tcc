@@ -35,7 +35,7 @@
              <br>
                 <label>imagem:  <input type="file" name="imagem"></label><br>
                  <br>
-                <label>tema do livro:<select name="tema_do_livro" >
+                <label>tema do livro:<select name="tema_do_livro"  >
                    <option value = ""> escolha o tema do livro </option> 
                   <option value="Suspence">Suspense</option>
                    <option value="Romance">Romance</option>
@@ -49,7 +49,7 @@
             </select>
         </label><br> 
             <br>
-           <label>Descrição: <textarea name="descricao"></textarea> </label><br>
+           <label>Descrição: <textarea name="descricao" required></textarea> </label><br>
 
          <input  class="btn btn-outline-success" type="submit" value="Cadastrar" ><br>
          <a href="tela_principal.php" class="btn btn-outline-danger">Sair para tela inicial</a>
