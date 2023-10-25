@@ -43,8 +43,8 @@
                   <option value="Aventura">Aventura</option>
                   <option value="Terror">Terror</option>
                     <option value="Material Acadêmico">Material Acadêmico</option>
-                 <option value="Quadrinhos\Manga">Quadrinhos\Manga</option>
-                 <option value="livros sobre programação">Livros sobre programação</option>
+                 <option value="Quadrinhos\Manga">Quadrinhos</option>
+                 <option value="acao">Ação</option>
          
             </select>
         </label><br> 

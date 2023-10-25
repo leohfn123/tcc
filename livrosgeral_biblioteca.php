@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -28,16 +26,7 @@
       $sql = "SELECT * FROM livros";
       $result = $conn->query($sql);
      
-      
-      
-     
-    
-      
     ?>
-
-
-      
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -56,25 +45,28 @@
                   livros
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspence</a></li>
+                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspense</a></li>
                   <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
                   <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
                   <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
                   <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
                   <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
                   <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="acao.php">Ação</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
+                  
                 </ul>
               </li>
             </ul>
             
 
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div class="search-container">
+            <form class="form-control me-2" method="post" action="resultado_pesquisa.php">
+           <input type="text" name="query" placeholder="Pesquisar livros" aria-label="Pesquisar">
+           <button class="btn btn-outline-success" type="submit" value="Pesquisar">Pesquisar</button>
+             </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -95,13 +87,14 @@
           <h5 class="card-title"><?php echo $row['nome_livro']; ?></h5>
              <img <?php echo  "src='img/". $row['img_livro']."'"; ?> height="250px" ><br></br>
              <h6 class="card-text">Autor: <?php echo $row['autor']; ?></h6>
-           
-                        <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
+            <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
                 
              </div>
             </div>
+            <br>
           </div>
+          
           <?php
         }
         ?>

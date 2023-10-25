@@ -61,18 +61,21 @@
                   <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
                   <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
                   <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
+                  <li><a class="dropdown-item" href="acao.php">Ação</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
-                  <li><a class="dropdown-item" href="livrosprogramação_biblioteca.php">livros sobre programação  </a></li>
+                 
                 </ul>
               </li>
             </ul>
             
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+            <div class="search-container">
+            <form class="form-control me-2" method="post" action="resultado_pesquisa.php">
+           <input type="text" name="query" placeholder="Pesquisar livros" aria-label="Pesquisar">
+           <button class="btn btn-outline-success" type="submit" value="Pesquisar">Pesquisar</button>
+             </form>
+            </div>
           </div>
         </div>
       </nav>
@@ -99,6 +102,7 @@
           
              </div>
             </div>
+            <br>
           </div>
           <?php
         }

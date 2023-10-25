@@ -2,7 +2,7 @@
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    // Conexão com o banco de dados (substitua pelas suas informações)
+   
     $servername = 'localhost';
     $username = 'root';
     $password = '';

@@ -2,7 +2,6 @@
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
 
-    // Conexão com o banco de dados (substitua pelas suas informações)
     $servername = 'localhost';
     $username = 'root';
     $password = '';
@@ -14,13 +13,13 @@ if(isset($_GET['id'])) {
         die("Erro na conexão com o banco de dados: " . $conn->connect_error);
     }
 
-    if ($_SERVER["REQUEST_METHOD"] === "POST") { // Correção: Use "==" em vez de "="
+    if ($_SERVER["REQUEST_METHOD"] === "POST") { 
         $nome_livro = $_POST['nome_livro'];
         $autor = $_POST['autor'];
-        
+        $descricao_livro['descricao_livro'];
         
 
-        $sql = "UPDATE livros SET nome_livro='$nome_livro', autor='$autor' WHERE id=$id";
+        $sql = "UPDATE livros SET nome_livro='$nome_livro', autor='$autor' descricao_livro='$descricao_livro' WHERE id=$id";
 
         if ($conn->query($sql) === TRUE) {
             echo "Livro atualizado com sucesso. <a href='index.php'>Voltar para a lista</a>";
@@ -40,6 +39,7 @@ if(isset($_GET['id'])) {
         <form method="post">
             Nome do Livro: <input type="text" name="nome_livro" value="<?php echo $row['nome_livro']; ?>"><br>
             Autor: <input type="text" name="autor" value="<?php echo $row['autor']; ?>"><br>
+            Descrição:<input type="text" name="autor" value="<?php echo $row['descricao_livro']; ?>"><br>
             <p class="card-text">Tema do livro:
             <label><select name="tema_do_livro" >
                    <option value = ""> escolha o tema do livro </option> 
