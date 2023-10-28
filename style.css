@@ -1,0 +1,185 @@
+body {
+    background-color: #ffffff;
+}
+
+body.dark-mode {
+    background-color: #464545;
+}
+
+/*muda a cor de fundo do navbar*/
+.navbar-custom {
+    background-color: #e9e6e6;
+}
+
+body.dark-mode .navbar-custom {
+    background-color: #333;
+}
+
+/*muda a cor dos links no navbar e tem o efeito de crescimento/zoom*/
+.navbar-custom a {
+    color: #333;
+    transition: color 0.5s;
+}
+
+.navbar-custom a:hover {
+    color: black;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.navbar-custom .dropdown-menu {
+    background-color: white; /* Essa é uma cor exemplo. Altere conforme sua preferência. */
+    transition: background-color 0.5s;
+}
+
+.navbar-custom .dropdown-menu:hover {
+    background-color: white; /* Esta é uma cor mais escura para o hover. Altere conforme sua preferência. */
+}
+
+
+/*muda a cor dos links no navbar e tem o efeito de crescimento/zoom quando esta no darkmode*/
+body.dark-mode .navbar-custom a {
+    color: rgb(212, 214, 216);
+    transition: color 0.5s;
+}
+
+body.dark-mode .navbar-custom .dropdown-menu {
+    background-color: #444; /* Essa é uma cor exemplo para o dark-mode. Altere conforme sua preferência. */
+    transition: background-color 0.5s;
+}
+
+body.dark-mode .navbar-custom .dropdown-menu:hover {
+    background-color: #333; /* Esta é uma cor mais escura para o hover no dark-mode. Altere conforme sua preferência. */
+}
+
+
+body.dark-mode .navbar-custom a:hover {
+    color: white;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+/*não deixa o link "livros" voltar para a cor preta quando o dropdown está aberto no dark-mode */
+body.dark-mode .navbar-custom .nav-link.dropdown-toggle.show {
+    font-family: sans-serif;
+    color: white;
+}
+
+
+/*não deixa o link "livros" voltar para a cor preta quando o dropdown está aberto no modo padrão*/
+.navbar-custom .nav-link.dropdown-toggle.show {
+    font-family: sans-serif;
+    color: black;
+}
+
+/*muda o quadrado de links quando você clica no "livros" no navbar, também muda a cor de fundo e da um quando 
+passa por cima*/
+.navbar-custom .dropdown-menu a {
+    font-family: sans-serif;
+    color: #333;
+    transition: color 0.5s;
+}
+
+.navbar-custom .dropdown-menu a:hover {
+    color: black;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+/*muda o quadrado de links quando você clica no "livros" no navbar, também muda a cor de fundo e da um quando
+passa por cima quando está no dark-mode*/
+body.dark-mode .navbar-custom .dropdown-menu a {
+    font-family: sans-serif;
+    color: rgb(212, 214, 216);
+    transition: color 0.5s;
+}
+
+body.dark-mode .navbar-custom .dropdown-menu a:hover {
+    color: white;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+/*parte para mudar a cor do "HOME" no navbar-custom*/
+.navbar-custom .nav-link.active {
+    font-family: sans-serif;
+    color: #333; 
+    transition: color 0.5s;
+}
+
+.navbar-custom .nav-link.active:hover {
+    color: black; 
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+/*parte para mudar a cor do "HOME" no navbar-custom quando está no dark-mode*/
+body.dark-mode .navbar-custom .nav-link.active {
+    font-family: sans-serif;
+    color: rgb(212, 214, 216); 
+    transition: color 0.5s;
+}
+
+body.dark-mode .navbar-custom .nav-link.active:hover {
+    color: white; 
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+.d-flex button:hover {
+    transition: background-color 0.5s, color 0.5s;
+    transform: scale(1.1) rotate(0.001deg);
+}
+
+#check {
+    margin-right: 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+label {
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+#check:checked {
+    accent-color: #fff;
+}
+
+#check:checked~label {
+    color: #fff;
+}
+
+label {
+    font-family: sans-serif;
+    margin-right: 30px;
+}
+
+#quadrinhos {
+    color: black;
+    text-align: center;
+}
+
+body.black-mode #quadrinhos {
+    color: white;
+    text-align: center;
+}
+
+.card{
+    background-color: #eeebeb;
+}
+
+.card-body{
+    color: black;
+}
+
+.card-title{
+    color: black;
+}
+
+body.dark-mode .card {
+    background-color: #333235;  
+}
+
+body.dark-mode .card-body {
+    color: whitesmoke; 
+}
+
+body.dark-mode .card-title {
+    color: white; 
+}
