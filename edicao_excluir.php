@@ -1,6 +1,3 @@
-<?php
-session_start();
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,7 +10,7 @@ session_start();
   <body>
     <?php
        
-      
+      session_start();
 
       $servername = 'localhost';
       $username = 'root';
@@ -38,45 +35,7 @@ session_start();
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="livrosgeral_biblioteca.php">Home</a>
-              </li>
-              <li class="nav-item">
-               
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  cadastrece ou gaça o Login
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="login.php">Login</a></li>
-                  <li><a class="dropdown-item" href=".php">Cadastro</a></li>
-                
-                 
-                  </ul>
-    </li>
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="encerrar_sessao.php">Sair</a>
-              </li>
-              <li class="nav-item">
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  livros
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="livrossuspence_biblioteca.php">Suspense</a></li>
-                  <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
-                  <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
-                  <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
-                  <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
-                  <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
-                  <li><a class="dropdown-item" href="livrosacao_biblioteca.php">Ação</a></li>
-                </ul>
-              </li>
-            </ul>
-            
+             
 
             </ul>
             <div class="search-container">
@@ -102,22 +61,14 @@ session_start();
       <div class="col-sm-4 mb-3 mb-sm-0">
       <div class="card">
           <div class="card-body">
-          <h5 class="card-title"><?php echo $row['nome_livro'] ; ?></h5>
-          <center>
+          <h5 class="card-title"><?php echo $row['nome_livro']; ?></h5>
              <img <?php echo  "src='img/capa/". $row['img_livro']."'"; ?> height="250px" ><br></br>
-         </center>
              <h6 class="card-text">Autor: <?php echo $row['autor']; ?></h6>
             <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
-        <?php 
-       
-        if(isset( $_SESSION['logado'])){
-        ?>
-           <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning" >editar </a>
-          <a href="excluir.php?id=<?php echo $row['id']?>" class="btn btn-danger ">excluir</a>
-          <?php
-        }
-          ?>
+        
+        <a href="excluir.php?id=<?php echo $row['id']?>" class="btn ">excluir</a>
+                
              </div>
             </div>
             <br>

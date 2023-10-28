@@ -29,7 +29,6 @@
 </br>
 <br>
 
-      <a href="livrosgeral_biblioteca.php"  class="btn btn-primary  " >Ir a biblioteca</a>
 
       
 </center>

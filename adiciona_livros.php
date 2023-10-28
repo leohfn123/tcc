@@ -49,8 +49,8 @@
             <br>
            <label>Descrição: <textarea name="descricao" required></textarea> </label><br>
 
-         <input  class="btn btn-outline-success" type="submit" value="Cadastrar" ><br>
-         <a href="tela_principal.php" class="btn btn-outline-danger">Sair para tela inicial</a>
+         <input  class="btn btn-success" type="submit" value="Cadastrar" >
+         <a href="tela_principal.php" class="btn btn-danger">Sair para tela inicial</a>
  
         </form>
           </body>

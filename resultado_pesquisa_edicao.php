@@ -44,8 +44,9 @@ if (isset($_POST['query'])) {
             echo "<p><strong>Autor:</strong> " . $row['autor'] . "</p>";
             echo "<img src='img/capa/" . $row['img_livro'] . "' alt='Capa do Livro'>";
             echo "<p><strong>Descrição:</strong> " . $row['descricao_livro'] . "</p> <br>";
-          
-            
+          ?>
+           <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning">editar</a>
+            <?php
             echo "<hr>";
         }
     } else {

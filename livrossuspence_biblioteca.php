@@ -1,5 +1,6 @@
-
-
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -52,6 +53,21 @@
                
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  cadastrece ou gaça o Login
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.php">Login</a></li>
+                  <li><a class="dropdown-item" href=".php">Cadastro</a></li>
+                  </ul>
+    </li>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="encerrar_sessao.php">Sair</a>
+              </li>
+              <li class="nav-item">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   livros
                 </a>
                 <ul class="dropdown-menu">
@@ -61,7 +77,7 @@
                   <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
                   <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
                   <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
-                  <li><a class="dropdown-item" href="acao.php">Ação</a></li>
+                  <li><a class="dropdown-item" href="livrosacao_biblioteca.php.php">Ação</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
                 
@@ -94,12 +110,22 @@
       <div class="card">
           <div class="card-body">
           <h5 class="card-title"><?php echo $row['nome_livro']; ?></h5>
-             <img <?php echo  "src='img/". $row['img_livro']."'"; ?> height="250px" ><br></br>
+          <center>
+             <img <?php echo  "src='img/capa/". $row['img_livro']."'"; ?> height="250px" ><br></br>
+          </center>
              <h6 class="card-text">Autor: <?php echo $row['autor']; ?></h6>
             
                         <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
-          
+        <?php 
+       
+       if(isset( $_SESSION['logado'])){
+       ?>
+         <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning" >editar </a>
+          <a href="excluir.php?id=<?php echo $row['id']?>" class="btn btn-danger ">excluir</a>
+         <?php
+       }
+         ?>
              </div>
             </div>
             <br>

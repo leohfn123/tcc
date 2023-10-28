@@ -34,7 +34,9 @@
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            header("Location: tela_adm.php");
+            $_SESSION['logado'] = 1;
+         
+            header("Location: livrosgeral_biblioteca.php");
            
         } else {
             echo "acesso negado tente novamente";

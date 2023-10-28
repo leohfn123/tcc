@@ -1,4 +1,8 @@
 
+<?php
+session_start();
+if(isset( $_SESSION['logado'] )){
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,13 +23,13 @@
 
 <h5>Bem-vindo administrador o que você gostaria de fazer?</h5>
 
-<a href="adiciona_livros.php" class="btn btn-primary">Adicionar livro</a>
+<a href="adiciona_livros.php" class="btn btn-success">Adicionar livro</a>
 </br>
 <br>
-<a href="editar.php" class="btn btn-primary">Editar livro</a>
+<a href="edicao_editar.php" class="btn btn-warning">Editar livro</a>
 </br>
 <br>
-<a href="Excluir.php" class="btn btn-primary">Excluir livro</a>
+<a href="edicao_excluir.php" class="btn btn-danger">Excluir livro</a>
 </br>
 <br>
       <a href="livrosgeral_biblioteca.php"  class="btn btn-primary">Ir a biblioteca</a><br>
@@ -39,3 +43,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<?php
+
+}else{
+    echo "logue para continuar"   ; 
+}
+
+?>
