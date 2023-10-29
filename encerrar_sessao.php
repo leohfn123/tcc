@@ -66,7 +66,7 @@ session_destroy();
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="login.php">Login</a></li>
                   <li><a class="dropdown-item" href=".php">Cadastro</a></li>
-                  <li><a class="dropdown-item"  href="encerrar_sessao.php">Sair</a></li>
+                  
                  
                   </ul>
                    

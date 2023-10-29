@@ -27,7 +27,7 @@ if (isset($_POST['query'])) {
     }
 
    
-    $query = "SELECT * FROM livros WHERE nome_livro LIKE '%" . $searchTerm . "%' OR autor LIKE '%" . $searchTerm . "%' OR descricao_livro LIKE '%" . $searchTerm . "%' OR img_livro LIKE '%" . $searchTerm . "%'";
+    $query = "SELECT * FROM livros WHERE nome_livro LIKE '%" . $searchTerm . "%' OR autor LIKE '%" . $searchTerm . "%' OR img_livro LIKE '%" . $searchTerm . "%'";
     $result = $conn->query($query);
 ?>
 <center>
@@ -42,7 +42,7 @@ if (isset($_POST['query'])) {
             echo "<h2>" . $row['nome_livro'] . "</h2>";
             
             echo "<p><strong>Autor:</strong> " . $row['autor'] . "</p>";
-            echo "<img src='img/capa/" . $row['img_livro'] . "' alt='Capa do Livro'>";
+            echo "<img src='img/capa/" . $row['img_livro'] . "' alt='Capa do Livro' height='250px' >";
             echo "<p><strong>Descrição:</strong> " . $row['descricao_livro'] . "</p> <br>";
           
             
@@ -60,6 +60,9 @@ if (isset($_POST['query'])) {
           </div>
       </div>
   </div>
+  
+  
+            <a href="livrosgeral_biblioteca.php" class="btn btn-danger">voltar</a>, 
 </center>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   

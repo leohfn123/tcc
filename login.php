@@ -42,7 +42,7 @@
   </div>
    <br> 
     <input class="btn btn-success" type="submit" value="Login">
-    <a href="tela_principal.php" class="btn btn-danger">Sair</a>
+    <a href="livrosgeral_biblioteca.php" class="btn btn-danger">Sair</a>
     </div>
       </div>
       </div> 

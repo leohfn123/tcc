@@ -37,7 +37,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $row['nome_livro']; ?></h5><br>
-                    <img src="img/<?php echo $row['img_livro']; ?>" height="250px"><br></br>
+                    <img src="img/capa/<?php echo $row['img_livro']; ?>" height="250px"><br></br>
                     <p class="card-text">Autor: <?php echo $row['autor']; ?></p>
                     <p class="card-text">Tema do livro: <?php echo $row['tipo_do_livro']; ?></p>
                     <p class="card-text">Descrição: <?php echo $row['descricao_livro']; ?></p>

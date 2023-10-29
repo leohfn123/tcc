@@ -10,7 +10,7 @@ session_start();
     
     <title>Quadrinhos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="planodefundo.css">
+   <link rel="stylesheet"  href="style.css">
   </head>
   <body>
     <?php
@@ -47,11 +47,11 @@ session_start();
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  cadastrece ou gaça o Login
+                  cadastre-se ou gaça o Login
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="login.php">Login</a></li>
-                  <li><a class="dropdown-item" href=".php">Cadastro</a></li>
+                  <li><a class="dropdown-item" href="cadastropessoa.php">Cadastro</a></li>
                   </ul>
               </li>
 
@@ -84,12 +84,14 @@ session_start();
             </ul>
             
             </ul>
+            
             <div class="search-container">
             <form class="form-control me-2" method="post" action="resultado_pesquisa.php">
            <input type="text" name="query" placeholder="Pesquisar livros" aria-label="Pesquisar" required>
            <button class="btn btn-outline-success" type="submit" value="Pesquisar">Pesquisar</button>
              </form>
             </div>
+            
             </form>
           </div>
         </div>
