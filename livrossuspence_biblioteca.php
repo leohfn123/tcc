@@ -78,7 +78,7 @@ session_start();
                   <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
                   <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
                   <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
-                  <li><a class="dropdown-item" href="livrosacao_biblioteca.php.php">Ação</a></li>
+                  <li><a class="dropdown-item" href="livrosacao_biblioteca.php">Ação</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="livrosgeral_biblioteca.php">Ver todos os livros</a></li>
                 
