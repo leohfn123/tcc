@@ -118,14 +118,18 @@ session_start();
               <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
         <?php 
-       
-       if(isset( $_SESSION['logado'])){
+              
+              if (isset($_SESSION['ADM']) && $_SESSION['ADM']) {
+
        ?>
-    <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning" >editar </a>
-          <a href="excluir.php?id=<?php echo $row['id']?>" class="btn btn-danger">excluir</a>
-         <?php
+           <a href="editar.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">Editar</a>
+           <a href="excluir.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Excluir</a>
+       <?php
+       } else {
+           
+           echo "";
        }
-         ?>
+       ?>    
              </div>
             </div>
             <br>

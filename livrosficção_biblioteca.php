@@ -113,13 +113,18 @@ session_start();
         <br>
         <?php 
        
-       if(isset( $_SESSION['logado'])){
-       ?>
-        <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning" >editar </a>
-          <a href="excluir.php?id=<?php echo $row['id']?>" class="btn btn-danger">excluir</a>
-         <?php
-       }
-         ?>
+       
+       if (isset($_SESSION['ADM']) && $_SESSION['ADM']) {
+
+        ?>
+          <a href="editar.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">Editar</a>
+        <a href="excluir.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Excluir</a>
+        <?php
+        } else {
+    
+          echo "";
+          }
+            ?>
              </div>
             </div>
             <br>

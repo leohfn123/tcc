@@ -106,21 +106,28 @@ session_start();
           <div class="card-body">
           <h5 class="card-title" ><?php echo $row['nome_livro']; ?></h5><br>
           <center>
-             <img <?php echo  "src='img/capa/". $row['img_livro']."'"; ?> height="250px" ><br></br>
+             <img <?php echo  "src='img/capa/". $row['img_livro']."'"; ?> height="250px"  ><br></br>
               </center>
              <h6 class="card-text">Autor: <?php echo $row['autor']; ?></h6>
 
             <a href="detalhes_livro.php?id=<?php echo $row['id']?>" class="btn btn-primary">Clique aqui para saber mais</a>
         <br>
         <?php 
-       
-       if(isset( $_SESSION['logado'])){
+              
+              if (isset($_SESSION['ADM']) && $_SESSION['ADM']) {
+
        ?>
-         <a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-warning" >editar </a>
-          <a href="excluir.php?id=<?php echo $row['id']?>" class="btn btn-danger">excluir</a>
-         <?php
+           <a href="editar.php?id=<?php echo $row['id'] ?>" class="btn btn-warning">Editar</a>
+           <a href="excluir.php?id=<?php echo $row['id'] ?>" class="btn btn-danger">Excluir</a>
+       <?php
+       } else {
+           
+           echo "";
        }
-         ?>
+       ?>        
+             
+
+
              </div>
             </div>
           </div>
