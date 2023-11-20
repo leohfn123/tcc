@@ -85,7 +85,7 @@ $conexao->close();
           
      
 
-     <a href="tela_principal.php" class="btn btn-outline-danger">Sair para tela inicial</a>
+     <a href="livrosgeral_biblioteca.php" class="btn btn-outline-danger">Sair para tela inicial</a>
 
         
         </div>

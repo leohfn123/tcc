@@ -36,11 +36,11 @@
             $user = $result->fetch_assoc();
 
             if ($user['ADM'] == '1') {
-                // É um administrador, conceda acesso total
+              
                 $_SESSION['ADM'] = true;
                 $_SESSION['email'] = $email;
             } else {
-                // É um usuário normal, conceda acesso limitado
+                
                 $_SESSION['ADM'] = false;
                 $_SESSION['email'] = $email;
             }
@@ -56,13 +56,13 @@
 
     <?php
     if (isset($_SESSION['ADM']) && $_SESSION['ADM']) {
-        // Mostrar botões de edição para administradores
+      
     ?>
         <button>Editar Livro</button>
         <button>Adicionar Livro</button>
     <?php
     } else {
-        // Não mostrar botões de edição para usuários não administradores
+        
     ?>
         <p>Você não tem permissão para editar livros.</p>
     <?php

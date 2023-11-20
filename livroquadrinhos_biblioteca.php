@@ -77,7 +77,6 @@ session_start();
                   <li><a class="dropdown-item" href="livrosromance_biblioteca.php">Romance</a></li>
                   <li><a class="dropdown-item" href="livrosficção_biblioteca.php">Ficção</a></li>                 
                   <li><a class="dropdown-item" href="livrosaventura_biblioteca.php">Aventura</a></li>
-                  <li><a class="dropdown-item" href="livroquadrinhos_biblioteca.php">Quadrinhos</a></li>
                   <li><a class="dropdown-item" href="livrosterror_biblioteca.php">Terror</a></li>
                   <li><a class="dropdown-item" href="livrosacademico_biblioteca.php">Material Acadêmico</a></li>
                   <li><a class="dropdown-item" href="livrosacao_biblioteca.php">Ação</a></li>
